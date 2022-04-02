@@ -71,6 +71,10 @@ flutter:
     - assets/Group 5.svg
     - assets/3.jpg
     - assets/garbage1.png
+    - assets/street.png
+    - assets/sup.png
+    - assets/explore_hero.png
+    - assets/Potholes.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
