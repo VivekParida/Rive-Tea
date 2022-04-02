@@ -77,6 +77,12 @@ class _HomeScreen extends State<HomeScreen> {
   Widget build(context) {
     // final user = FirebaseAuth.instance.currentUser!;
     return Scaffold(
+      floatingActionButton: FloatingActionButton(
+        child: Icon(Icons.add),
+        onPressed: () {
+          //Navigator.push()
+        },
+      ),
       // child: Scaffold(
       //   body: Center(
       //     child: StreamBuilder<LocationData>(
