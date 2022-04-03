@@ -1,4 +1,5 @@
 # rive_tea
+**About**: Creation of Own Chai ka Tapri digitally. A platform where people can post their problems in their locality. Which will address the trending issue of a locality 
 
 Welcome to our installation guide for developers. Jump in and contribute!
 
