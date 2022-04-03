@@ -4,6 +4,7 @@ import 'package:provider/provider.dart';
 import 'package:rive_tea/Modal/NavBar.dart';
 import 'package:rive_tea/Pages/Explore.dart';
 import 'package:rive_tea/Pages/Login.dart';
+import 'package:rive_tea/Pages/Posts.dart';
 import 'package:rive_tea/Pages/homePage.dart';
 import 'package:rive_tea/Pages/signUp.dart';
 
