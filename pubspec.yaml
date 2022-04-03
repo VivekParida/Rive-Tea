@@ -75,6 +75,12 @@ flutter:
     - assets/sup.png
     - assets/explore_hero.png
     - assets/Potholes.png
+    - assets/5.jpg
+    - assets/7.jpg
+    - assets/dog.jpg
+    - assets/poor.jpg
+    - assets/garb.jpg
+    - assets/lights.jpg
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.

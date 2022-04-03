@@ -100,7 +100,7 @@ class _ExploreState extends State<Explore> {
                           width: 148,
                           //color: Colors.white,
                           child: Column(children: <Widget>[
-                            Image.asset('assets/Potholes.png'),
+                            Image.asset('assets/garb.jpg'),
                             SizedBox(
                               height: 5,
                             ),
@@ -110,7 +110,7 @@ class _ExploreState extends State<Explore> {
                                   mainAxisAlignment: MainAxisAlignment.start,
                                   // ignore: prefer_const_literals_to_create_immutables
                                   children: [
-                                    Text('Reduce Potholes'),
+                                    Text('Reduce Garbage'),
                                   ],
                                 ),
                                 Row(
@@ -124,7 +124,7 @@ class _ExploreState extends State<Explore> {
                                   mainAxisAlignment: MainAxisAlignment.start,
                                   // ignore: prefer_const_literals_to_create_immutables
                                   children: [
-                                    Text('Roads'),
+                                    Text('Cleaning'),
                                   ],
                                 )
                               ],
@@ -139,7 +139,7 @@ class _ExploreState extends State<Explore> {
                           width: 148,
                           // color: Colors.white,
                           child: Column(children: <Widget>[
-                            Image.asset('assets/Potholes.png'),
+                            Image.asset('assets/lights.jpg'),
                             SizedBox(
                               height: 5,
                             ),
@@ -149,21 +149,21 @@ class _ExploreState extends State<Explore> {
                                   mainAxisAlignment: MainAxisAlignment.start,
                                   // ignore: prefer_const_literals_to_create_immutables
                                   children: [
-                                    Text('Reduce Potholes'),
+                                    Text('No Lights'),
                                   ],
                                 ),
                                 Row(
                                   mainAxisAlignment: MainAxisAlignment.start,
                                   // ignore: prefer_const_literals_to_create_immutables
                                   children: [
-                                    Text('40 Members'),
+                                    Text('67 Members'),
                                   ],
                                 ),
                                 Row(
                                   mainAxisAlignment: MainAxisAlignment.start,
                                   // ignore: prefer_const_literals_to_create_immutables
                                   children: [
-                                    Text('Roads'),
+                                    Text('Lights'),
                                   ],
                                 )
                               ],
