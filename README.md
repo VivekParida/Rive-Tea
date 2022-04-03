@@ -25,5 +25,6 @@ We have tried to make the process simple. Here's what you need to do.
     $ flutter pub get
     ```
 3. Start developing!
+![WireFrames fotu](https://user-images.githubusercontent.com/77985949/161412638-a33d55b2-54db-4b62-8b7d-23eeb8b1e295.png)
 
 
