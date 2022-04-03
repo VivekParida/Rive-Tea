@@ -16,13 +16,13 @@ We have tried to make the process simple. Here's what you need to do.
 
 1. Clone and change into the project.
     ```sh
-    $ git clone 
+    $ git clone https://github.com/VivekParida/Rive-Tea.git
     $ cd talawa
     ```
-1. Install packages.
+2. Install packages.
     ```sh
     $ flutter pub get
     ```
-1. Start developing!
+3. Start developing!
 
 
