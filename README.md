@@ -1,16 +1,13 @@
 # rive_tea
 
-A new Flutter project.
+Welcome to our installation guide for developers. Jump in and contribute!
 
-## Getting Started
+## Prerequisites
 
-This project is a starting point for a Flutter application.
+You'll need to set up the IDE and mobile device emulator on your local system and have access to a system running the Rive-Tea, which the mobile needs to access to operate properly.
 
-A few resources to get you started if this is your first Flutter project:
+**Development Environment**: You'll need to have the following installed:
+    1. [Flutter SDK](https://flutter.dev/docs/get-started/install)
+    1. [Android Studio](https://developer.android.com/studio)
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
