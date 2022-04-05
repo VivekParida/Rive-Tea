@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "93284141251",
-    "project_id": "rive-tea",
-    "storage_bucket": "rive-tea.appspot.com"
+    "project_number": "464116555163",
+    "project_id": "rive-tea-692f7",
+    "storage_bucket": "rive-tea-692f7.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:93284141251:android:252cc917011f001cf87a76",
+        "mobilesdk_app_id": "1:464116555163:android:c42797e04b60360438153e",
         "android_client_info": {
           "package_name": "com.example.rive_tea"
         }
       },
       "oauth_client": [
         {
-          "client_id": "93284141251-je3s36926dbh25ldt4gi9ni0ilkfe7d3.apps.googleusercontent.com",
+          "client_id": "464116555163-cljmll3g70ftvds1l8dhc6fqn636q8k4.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyADOl2_EZZcYK1uUEcTXFY3ewFsUEGiTK4"
+          "current_key": "AIzaSyALiBIXrP927umoecSG11-blAq7omhUF5o"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "93284141251-je3s36926dbh25ldt4gi9ni0ilkfe7d3.apps.googleusercontent.com",
+              "client_id": "464116555163-cljmll3g70ftvds1l8dhc6fqn636q8k4.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

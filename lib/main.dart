@@ -5,8 +5,9 @@ import 'package:rive_tea/Modal/NavBar.dart';
 import 'package:rive_tea/Pages/Explore.dart';
 import 'package:rive_tea/Pages/Login.dart';
 import 'package:rive_tea/Pages/Posts.dart';
+import 'package:rive_tea/Pages/SignUp.dart';
 import 'package:rive_tea/Pages/homePage.dart';
-import 'package:rive_tea/Pages/signUp.dart';
+//import 'package:rive_tea/Pages/signUp.dart';
 
 import 'Providers/google_sign_in.dart';
 
@@ -28,7 +29,7 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),
-        home: NavBar(),
+        home: SignUp(),
       ),
     );
   }
