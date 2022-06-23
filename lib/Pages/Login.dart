@@ -3,7 +3,7 @@
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:provider/provider.dart';
 import 'SignUp.dart';
-import 'package:rive_tea/Providers/google_sign_in.dart';
+import 'package:rive_tea/Modal/google_sign_in.dart';
 import 'package:flutter/material.dart';
 
 class Login extends StatefulWidget {
@@ -194,7 +194,7 @@ class _LoginState extends State<Login> {
                                 final provider =
                                     Provider.of<GoogleSignInProvider>(context,
                                         listen: false);
-                                provider.googlelogin();
+                                provider.googleLogin(context: context);
                               },
                               icon: FaIcon(
                                 FontAwesomeIcons.google,

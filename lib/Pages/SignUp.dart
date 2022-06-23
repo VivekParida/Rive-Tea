@@ -5,7 +5,8 @@ import 'package:rive_tea/Pages/Login.dart';
 import 'package:rive_tea/Pages/homePage.dart';
 import 'package:rive_tea/Widgets/button.dart';
 import 'package:provider/provider.dart';
-import 'package:rive_tea/Providers/google_sign_in.dart';
+//import 'package:rive_tea/Providers/google_sign_in.dart';
+import 'package:rive_tea/Modal/google_sign_in.dart';
 
 class SignUp extends StatefulWidget {
   const SignUp({Key? key}) : super(key: key);
@@ -197,7 +198,7 @@ class _SignUpState extends State<SignUp> {
                               final provider =
                                   Provider.of<GoogleSignInProvider>(context,
                                       listen: false);
-                              provider.googlelogin();
+                              provider.googleLogin(context: context);
                             },
                             child: Image.asset('assets/Google.png'),
                           ),

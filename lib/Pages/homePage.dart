@@ -1,5 +1,6 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
+import 'package:rive_tea/Modal/NavBar.dart';
 import 'package:rive_tea/Pages/Login.dart';
 import 'package:rive_tea/Pages/loggedInScreen.dart';
 import 'package:rive_tea/Pages/SignUp.dart';
@@ -21,7 +22,7 @@ class HomePageS extends StatelessWidget {
             ),
           );
         } else if (snapshot.hasData) {
-          return HomeScreen();
+          return NavBar();
         } else {
           return SignUp();
         }
