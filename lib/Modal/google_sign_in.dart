@@ -7,6 +7,10 @@ import 'package:google_sign_in/google_sign_in.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 
 class GoogleSignInProvider extends ChangeNotifier {
+  get googleSignInAuthentication => null;
+
+  AuthCredential? get credential => null;
+
   Future<User?> googleLogin({required BuildContext context}) async {
     FirebaseAuth auth = FirebaseAuth.instance;
     User? user;
@@ -19,15 +23,15 @@ class GoogleSignInProvider extends ChangeNotifier {
       final GoogleSignInAuthentication googleSignInAuthentication =
           await googleSignInAccount.authentication;
 
-    var googleSignInAuthentication;
-    final AuthCredential credential = GoogleAuthProvider.credential(
-      accessToken: googleSignInAuthentication?.accessToken,
-      idToken: googleSignInAuthentication?.idToken,
-    );
+    if (googleSignInAuthentication != null)
+      final AuthCredential credential = GoogleAuthProvider.credential(
+        accessToken: googleSignInAuthentication?.accessToken,
+        idToken: googleSignInAuthentication?.idToken,
+      );
 
     try {
       final UserCredential userCredential =
-          await auth.signInWithCredential(credential);
+          await auth.signInWithCredential(credential!);
 
       user = userCredential.user;
     } on FirebaseAuthException catch (e) {
