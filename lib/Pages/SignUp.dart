@@ -1,6 +1,7 @@
 // ignore_for_file: prefer_const_constructors
 
 import 'package:flutter/material.dart';
+import 'package:rive_tea/Modal/NavBar.dart';
 import 'package:rive_tea/Pages/Login.dart';
 import 'package:rive_tea/Pages/homePage.dart';
 import 'package:rive_tea/Widgets/button.dart';
@@ -195,10 +196,15 @@ class _SignUpState extends State<SignUp> {
                         children: <Widget>[
                           TextButton(
                             onPressed: () {
-                              final provider =
-                                  Provider.of<GoogleSignInProvider>(context,
-                                      listen: false);
-                              provider.googleLogin(context: context);
+                              Navigator.push(
+                                  context,
+                                  MaterialPageRoute(
+                                      builder: (BuildContext context) =>
+                                          const NavBar()));
+                              // final provider =
+                              //     Provider.of<GoogleSignInProvider>(context,
+                              //         listen: false);
+                              // provider.googleLogin(context: context);
                             },
                             child: Image.asset('assets/Google.png'),
                           ),

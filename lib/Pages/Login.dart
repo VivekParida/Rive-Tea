@@ -2,6 +2,7 @@
 
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:provider/provider.dart';
+import '../Modal/NavBar.dart';
 import 'SignUp.dart';
 import 'package:rive_tea/Modal/google_sign_in.dart';
 import 'package:flutter/material.dart';
@@ -109,15 +110,24 @@ class _LoginState extends State<Login> {
                           color: Color.fromRGBO(105, 109, 198, 1),
                         ),
                         child: Center(
-                          child: Text(
-                            'Login',
-                            style: TextStyle(
-                              fontFamily: 'Gilroy',
-                              fontSize: 18,
-                              color: Colors.white,
-                              height: 1,
+                          child: TextButton(
+                            onPressed: () {
+                              Navigator.push(
+                                  context,
+                                  MaterialPageRoute(
+                                      builder: (BuildContext context) =>
+                                          const NavBar()));
+                            },
+                            child: Text(
+                              'Login',
+                              style: TextStyle(
+                                fontFamily: 'Gilroy',
+                                fontSize: 18,
+                                color: Colors.white,
+                                height: 1,
+                              ),
+                              textAlign: TextAlign.center,
                             ),
-                            textAlign: TextAlign.center,
                           ),
                         ),
                       ),
@@ -191,10 +201,15 @@ class _LoginState extends State<Login> {
                           children: <Widget>[
                             IconButton(
                               onPressed: () {
-                                final provider =
-                                    Provider.of<GoogleSignInProvider>(context,
-                                        listen: false);
-                                provider.googleLogin(context: context);
+                                Navigator.push(
+                                    context,
+                                    MaterialPageRoute(
+                                        builder: (BuildContext context) =>
+                                            const NavBar()));
+                                // final provider =
+                                //     Provider.of<GoogleSignInProvider>(context,
+                                //         listen: false);
+                                // provider.googleLogin(context: context);
                               },
                               icon: FaIcon(
                                 FontAwesomeIcons.google,
